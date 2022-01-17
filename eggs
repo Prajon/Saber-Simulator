@@ -1,3 +1,50 @@
-local script = Instance.new('Script', TextLabel)
-    script.Parent.Text = "-Egg Names- \n \n V Egg - Island71 \n W Egg - Island72 \n X Egg - Island73 \n Y Egg - Island74 \n Z Egg - Island75 \n AA Egg - Island76 \n AB Egg - Island77 \n AC Egg - Island78 \n AD Egg - Island79 \n AE Egg - Island80 \n AF Egg - Island81 \n AG Egg - Island82 \n AH Egg - Island83 \n AI Egg - Island83 \n AJ Egg - Island84 \n AK Egg - Island85 \n AL Egg - Island 86 \n AM Egg - Island87 \n AN Egg - Island88 \n AO Egg - Island89 \n AP Egg - Island90 \n AQ Egg - Island91 \n AR Egg - Island92 \n AS Egg - Island93 \n AT Egg - Island94 \n AU Egg - Island95 \n AV Egg - Island96 \n AW Egg - Island97 \n AX Egg - Island98 \n AZ Egg - Island99 \n BA Egg - Island100 \n BB Egg - Island101 \n BC Egg - Island102 \n BD Egg - Island103 \n BE Egg - Island104 \n BF Egg - Island105 \n BG Egg - Island106 \n BH Egg - Island107 \n BI Egg - Island108 \n BK Egg - Island109  \n BL Egg - Halloween \n BM Egg - Halloween2nd \n BN Egg - Island110 \n BO Egg - Island111 \n BP Egg - Turkey \n BQ Egg - Turkey2nd \n BR Egg - Xmas \n BS Egg - Xmas2nd \n BT Egg - Xmas3rd \n BU Egg - Xmas4th \n BV Egg - Xmas5th \n BW Egg - Island112 \n BX Egg - Island113 \n BY Egg - Island114 \n BZ Egg - Island115"
-    
+local EggNames = Instance.new("ScreenGui")
+    local ScrollingFrame = Instance.new("ScrollingFrame")
+    local TextLabel = Instance.new("TextLabel")
+    local TextLabel_2 = Instance.new("TextLabel")
+
+    --Properties:
+
+    EggNames.Name = "EggNames"
+    EggNames.Parent = game.CoreGui
+    EggNames.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+    ScrollingFrame.Parent = EggNames
+    ScrollingFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+    ScrollingFrame.BorderSizePixel = 0
+    ScrollingFrame.Position = UDim2.new(0.382561892, 0, 0.151093438, 0)
+    ScrollingFrame.Size = UDim2.new(0.234643936, 0, 0.69582504, 0)
+    ScrollingFrame.CanvasSize = UDim2.new(0, 0, 4, 0)
+
+    TextLabel.Parent = ScrollingFrame
+    TextLabel.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+    TextLabel.BorderSizePixel = 0
+    TextLabel.Size = UDim2.new(0, 308, 0, 2012)
+    TextLabel.Font = Enum.Font.SourceSans
+    TextLabel.Text = ""
+    TextLabel.TextColor3 = Color3.fromRGB(120, 120, 120)
+    TextLabel.TextScaled = true
+    TextLabel.TextSize = 40.000
+    TextLabel.TextWrapped = true
+
+    TextLabel_2.Parent = EggNames
+    TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+    TextLabel_2.BackgroundTransparency = 1.000
+    TextLabel_2.BorderSizePixel = 0
+    TextLabel_2.Position = UDim2.new(0.382561922, 0, 0.0596421473, 0)
+    TextLabel_2.Size = UDim2.new(0.234260619, 0, 0.0914512947, 0)
+    TextLabel_2.Font = Enum.Font.SourceSans
+    TextLabel_2.Text = "This takes so much time to make not gonna lie."
+    TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+    TextLabel_2.TextScaled = true
+    TextLabel_2.TextSize = 14.000
+    TextLabel_2.TextWrapped = true
+
+    -- Scripts:
+
+    local function BPIPX_fake_script() -- TextLabel.Script 
+        local script = Instance.new('Script', TextLabel)
+
+        script.Parent.Text = "-Egg Names- \n \n V Egg - Island71 \n W Egg - Island72 \n X Egg - Island73 \n Y Egg - Island74 \n Z Egg - Island75 \n AA Egg - Island76 \n AB Egg - Island77 \n AC Egg - Island78 \n AD Egg - Island79 \n AE Egg - Island80 \n AF Egg - Island81 \n AG Egg - Island82 \n AH Egg - Island83 \n AI Egg - Island83 \n AJ Egg - Island84 \n AK Egg - Island85 \n AL Egg - Island 86 \n AM Egg - Island87 \n AN Egg - Island88 \n AO Egg - Island89 \n AP Egg - Island90 \n AQ Egg - Island91 \n AR Egg - Island92 \n AS Egg - Island93 \n AT Egg - Island94 \n AU Egg - Island95 \n AV Egg - Island96 \n AW Egg - Island97 \n AX Egg - Island98 \n AZ Egg - Island99 \n BA Egg - Island100 \n BB Egg - Island101 \n BC Egg - Island102 \n BD Egg - Island103 \n BE Egg - Island104 \n BF Egg - Island105 \n BG Egg - Island106 \n BH Egg - Island107 \n BI Egg - Island108 \n BK Egg - Island109  \n BL Egg - Halloween \n BM Egg - Halloween2nd \n BN Egg - Island110 \n BO Egg - Island111 \n BP Egg - Turkey \n BQ Egg - Turkey2nd \n BR Egg - Xmas \n BS Egg - Xmas2nd \n BT Egg - Xmas3rd \n BU Egg - Xmas4th \n BV Egg - Xmas5th \n BW Egg - Island112 \n BX Egg - Island113 \n BY Egg - Island114 \n BZ Egg - Island115"	
+    end
+    coroutine.wrap(BPIPX_fake_script)()

